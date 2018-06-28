@@ -19,6 +19,8 @@ namespace DevBootCampBasicTemplate.Controllers
 
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.TraceError("If you're seeing this, something bad happened");
+
             return View();
         }
 
